@@ -57,6 +57,8 @@
 
 O projeto **Happy** é uma aplicação que conecta pessoas à casas de acolhimento institucional(antigamente denominados orfanatos) para fazer o dia de muitas crianças mais feliz e cheios de muito amor 💝.
 
+Um projeto fullstack, desenvolvido em cima de uma API Rest com Node.JS, Front end web com ReactJS e Front end Mobile com React Native.
+
 ---
 #### 💻 Web
 
