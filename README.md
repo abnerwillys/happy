@@ -1,7 +1,7 @@
 <h1 align="center">
     <img 
         src="web/src/assets/readme/logo.svg"
-        height="250px">
+        width="500px">
 </h1>
 
 <p align="center">
@@ -70,7 +70,7 @@ O projeto **Happy** é uma aplicação que conecta pessoas à casas de acolhimen
 #### 📱 Mobile
 
 <p align="center">
-    <img src="./mobile/src/images/readme/banner1.jpeg" height="400px"> <img src="./mobile/src/images/readme/banner2.jpeg" height="400px"> <img src="./mobile/src/images/readme/banner3.jpeg" height="400px"> <img src="./mobile/src/images/readme/banner4.jpeg" height="400px"> 
+    <img src="./mobile/src/images/readme/banner1.jpeg" height="350px"> <img src="./mobile/src/images/readme/banner2.jpeg" height="350px"> <img src="./mobile/src/images/readme/banner3.jpeg" height="350px"> <img src="./mobile/src/images/readme/banner4.jpeg" height="350px"> 
 </p>
 
 ---
