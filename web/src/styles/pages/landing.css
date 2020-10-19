@@ -2,7 +2,8 @@
   width: 100vw;
   height: 100vh;
 
-  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+  background: linear-gradient(230.23deg, #FFD600 7.95%, rgba(255, 255, 255, 0) 80.71%), 
+              linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
 
   display: flex;
   justify-content: center;
@@ -28,6 +29,7 @@
 
 #page-landing .content-wrapper main {
   max-width: 350px;
+  margin-bottom: 48px;
 }
 
 #page-landing .content-wrapper main h1 {

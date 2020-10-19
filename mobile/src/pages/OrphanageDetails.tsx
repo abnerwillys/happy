@@ -98,13 +98,13 @@ export default function OrphanageDetails() {
             onPress={handleOpenGoogleMapRoutes}
             style={styles.routesContainer}
           >
-            <Text style={styles.routesText}>Ver rotas no Google Maps</Text>
+            <Text style={styles.routesText}>View directions on Google Maps</Text>
           </TouchableOpacity>
         </View>
       
         <View style={styles.separator} />
 
-        <Text style={styles.title}>Instruções para visita</Text>
+        <Text style={styles.title}>Visiting instructions</Text>
         <Text style={styles.description}>
           {orphanage.instructions}
         </Text>
@@ -112,26 +112,26 @@ export default function OrphanageDetails() {
         <View style={styles.scheduleContainer}>
           <View style={[styles.scheduleItem, styles.scheduleItemBlue]}>
             <Feather name="clock" size={40} color="#2AB5D1" />
-            <Text style={[styles.scheduleText, styles.scheduleTextBlue]}>Segunda à Sexta {orphanage.opening_hours}</Text>
+            <Text style={[styles.scheduleText, styles.scheduleTextBlue]}>Monday to Friday {orphanage.opening_hours}</Text>
           </View>
           
           { orphanage.open_on_weekends ? (
             <View style={[styles.scheduleItem, styles.scheduleItemGreen]}>
               <Feather name="info" size={40} color="#39CC83" />
-              <Text style={[styles.scheduleText, styles.scheduleTextGreen]}>Atendemos fim de semana</Text>
+              <Text style={[styles.scheduleText, styles.scheduleTextGreen]}>We're open on weekends</Text>
             </View>
           ) : (
             <View style={[styles.scheduleItem, styles.scheduleItemRed]}>
               <Feather name="info" size={40} color="#FF669d" />
-              <Text style={[styles.scheduleText, styles.scheduleTextRed]}>Não atendemos fim de semana</Text>
+              <Text style={[styles.scheduleText, styles.scheduleTextRed]}>We're not open on weekends</Text>
             </View>
           )}
         </View>
 
-        <RectButton style={styles.contactButton} onPress={() => {}}>
+        {/* <RectButton style={styles.contactButton} onPress={() => {}}>
           <FontAwesome name="whatsapp" size={24} color="#FFF" />
           <Text style={styles.contactButtonText}>Entrar em contato</Text>
-        </RectButton>
+        </RectButton> */}
       </View>
     </ScrollView>
   )

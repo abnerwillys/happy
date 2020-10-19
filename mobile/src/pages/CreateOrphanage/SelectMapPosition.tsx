@@ -41,7 +41,7 @@ export default function SelectMapPosition() {
 
       { position.latitude !== 0 && (
         <RectButton style={styles.nextButton} onPress={handleNextStep}>
-          <Text style={styles.nextButtonText}>Próximo</Text>
+          <Text style={styles.nextButtonText}>Next</Text>
         </RectButton>
       ) }
     </View>

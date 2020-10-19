@@ -1,6 +1,6 @@
 <h1 align="center">
     <img 
-        src="web/public/banner.PNG"
+        src="web/src/assets/readme/logo.svg"
         height="450px">
 </h1>
 
@@ -61,21 +61,16 @@ O projeto **Happy** é uma aplicação que conecta pessoas à casas de acolhimen
 #### 💻 Web
 
 <p align="center">
-    <img src="/web/public/banner.PNG" height="400px">
-    <img src="/web/public/banner2.PNG" height="400px"><img src="/web/public/banner3.PNG" height="400px">
+    <img src="./web/src/assets/readme/banner.png" height="400px">
+    <img src="./web/src/assets/readme/banner2.png" height="400px">
+    <img src="./web/src/assets/readme/banner3.png" height="400px">
+    <img src="./web/src/assets/readme/banner4.png" height="400px">
 </p>
 
 #### 📱 Mobile
 
 <p align="center">
-    <img src="./web/public/mob1.jpg" height="350px"><img src="./web/public/mob2.jpg" height="350px"><img src="./web/public/mob3.jpg" height="350px"><img src="./web/public/mob4.jpg" height="350px"> 
-</p>
-
-#### 🎬 Breve vizualização
-<p align="center">
-    <a href="https://www.youtube.com/watch?v=64nT16NwF04&feature=youtu.be">
-        <img src="/web/public/proffy-video.PNG" width="600px">
-    </a>
+    <img src="./mobile/src/images/readme/banner1.jpeg" height="350px"><img src="./mobile/src/images/readme/banner2.jpeg" height="350px"><img src="./mobile/src/images/readme/banner3.jpeg" height="350px"><img src="./mobile/src/images/readme/banner4.jpeg" height="350px"> 
 </p>
 
 ---

@@ -8,7 +8,8 @@
 
 #page-map aside {
   width: 440px;
-  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  background: linear-gradient(169.41deg, #FFD600 -17.72%, rgba(255, 239, 152, 0.38) 58.86%, rgba(255, 255, 255, 0) 74.26%), 
+              linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
   padding: 80px;
 
   display: flex;
@@ -20,7 +21,7 @@
   font-size: 40px;
   font-weight: 800;
   line-height: 42px;
-  margin-top: 64px;
+  margin-top: 82px;
 }
 
 #page-map aside p {
