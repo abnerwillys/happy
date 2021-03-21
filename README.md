@@ -1,6 +1,6 @@
 <h1 align="center">
     <img 
-        src="web/src/assets/readme/logo.svg"
+        src="web/src/assets/readme/logo1.png"
         width="500px">
 </h1>
 
@@ -22,19 +22,19 @@
   <a href="https://www.typescriptlang.org/">
     <img 
         alt="Typescript" 
-        src="https://img.shields.io/badge/-TypeScript-%23007ACC?style=flat-square&logo=TYPESCRIPT">
+        src="https://img.shields.io/badge/|-TypeScript-%23007ACC?style=flat-square&logo=TYPESCRIPT">
   </a>
-  <a href="https://github.com/abner-starkasty/Proffy-Typescript/tree/master/server">
+  <a href="https://github.com/abner-starkasty/happy/tree/main/backend">
     <img 
         alt="server Node.js" 
         src="https://img.shields.io/badge/Server-Node.js-%23339933?style=flat-square&logo=node.js">
   </a>
-  <a href="https://github.com/abner-starkasty/Proffy-Typescript/tree/master/web">
+  <a href="https://github.com/abner-starkasty/happy/tree/main/web">
     <img 
         alt="web React" 
         src="https://img.shields.io/badge/Web-React-%23007ACC?style=flat-square&logo=REACT">
   </a>
-  <a href="https://github.com/abner-starkasty/Proffy-Typescript/tree/master/mobile">
+  <a href="https://github.com/abner-starkasty/happy/tree/main/mobile">
     <img 
         alt="mobile React Native" 
         src="https://img.shields.io/badge/Mobile-React%20Native-%235849BE?style=flat-square&logo=REACT">
@@ -47,7 +47,7 @@
  <a href="#-sobre">Sobre</a> •
  <a href="#-etapas-do-projeto">Etapas do projeto</a> • 
  <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
- <a href="#-como-baixar-o-projeto">Como baixar o projeto</a> • 
+ <a href="#-como-executar-o-projeto">Como executar o projeto</a> • 
  <a href="#-licença">Licença</a> • 
  <a href="#-desenvolvedor">Desenvolvedor</a>
 </p>
@@ -111,38 +111,91 @@ As seguintes tecnologias/ferramentas foram utilizadas:
 
 
 ---
-### 📎 Como baixar o projeto
 
-##### 👉 Ferramentas necessárias:
+### 🚀👩‍🚀 Como executar o projeto
+
+#### 👉 Pré-requisitos:
+
 - Editor:
-    - [Vscode](https://code.visualstudio.com/) foi utilizado nesse projeto; 
+  - [Vscode](https://code.visualstudio.com/) foi utilizado nesse projeto;
 - [Node.Js](https://nodejs.org/en/) - Instalado em sua máquina;
+- [Yarn](https://yarnpkg.com/getting-started/install) - Gerenciador de pacotes de sua preferência (Yarn foi usado nesse projeto);
+- [Expo](https://expo.io/) - Caso queira testar a versão mobile instale aplicativo do expo no seu smartphone;
 - [Git](https://git-scm.com/downloads) - Instalado em sua máquina;
 
-##### 👉 Após instalar as ferramentas:
+#### 👉 Após instalar as ferramentas:
+
+Podemos considerar este projeto como sendo divido em três partes:
+1. Back End (pasta backend) 
+2. Front End (pasta web)
+3. Mobile (pasta mobile)
+
+💡 **IMPORTANTE:** Tanto o Front End quanto o Mobile precisam que o Back End esteja executando para funcionar.
+
+### 🛠 Rodando o Back End (servidor)
 
 ```bash
-
-#->No terminal:
-
-# Clonar repositório:
+# Clone este repositório
 $ git clone https://github.com/abner-starkasty/happy
 
-# Entrar no diretório da etapa do projeto desejada:
--> $ cd web
--> $ cd server
--> $ cd mobile
+# Acesse a pasta do projeto no terminal/cmd
+$ cd happy
 
-# Instalar dependências
-$ yarn install
+# Vá para a pasta backend
+$ cd backend
 
-# Iniciar o projeto
-$ yarn start
+# Instale as dependências
+$ yarn
 
-# Após carregar o projeto automaticamente irá abrir uma guia no navegador padrão.
+# Subir o servidor
+$ yarn dev
 
+# O servidor inciará na porta:3333 - acesse http://localhost:3333 
 ```
 
+### ♻ Rodando a aplicação web
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/abner-starkasty/happy
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd happy
+
+# Vá para a pasta web
+$ cd web
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação (Lembrando que é necessário o server estar executando)
+$ yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+
+### ♻ Rodando a aplicação mobile
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/abner-starkasty/happy
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd happy
+
+# Vá para a pasta web
+$ cd mobile
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação (Lembrando que é necessário o server estar executando)
+$ yarn start
+
+# Com seu celular entre no aplicativo Expo;
+
+# Selecione para scanear o QR code gerado;
+```
 
 ---
 ### 📜 Licença
